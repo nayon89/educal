@@ -375,7 +375,7 @@ body {
 }
 
 #companie .main {
-    visibility: visible;
+  visibility: visible;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
