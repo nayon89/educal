@@ -294,3 +294,48 @@ background-color:#289BDE ;
 /*=========================== 
         ready to join end
 /*=========================== */
+/*=========================== 
+       Successfull Students start
+/*=========================== */
+
+#succesfull_student{
+    margin-bottom: 130px;
+}
+
+#succesfull_student .studentittle{
+    width: 549px;
+}
+#succesfull_student .student img{
+width: 100%;
+}
+#succesfull_student .student{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 50px;
+}
+#succesfull_student .student .detils{
+    padding:20px ;
+}
+#succesfull_student .student .detils h5{
+font-size: 20px;
+font-weight: 600;
+color: #1D1D1D;
+}
+
+#succesfull_student .student .detils p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 30px;
+}
+#succesfull_student .all_students {
+    text-align: center;
+    margin-top: 50px;
+}
+/*=========================== 
+       Successfull Students end
+/*=========================== */
