@@ -247,49 +247,49 @@ body {
 /*=========================== 
         ready to join start
 /*=========================== */
-#ready_join{
-    padding: 130px 0;
+#ready_join {
+  padding: 130px 0;
 }
 #ready_join .container {
-padding: 80px 100px;
-background-color:#289BDE ;
-}     
-
-#ready_join .main{
-    display: flex;
-    justify-content: space-between;
+  padding: 80px 100px;
+  background-color: #289bde;
 }
 
-#ready_join .main h2{
-    font-size: 45px;
-    color: #ffff;
-    font-weight: 600;
-}
-#ready_join .main p{
-    color: #ffff;
-    width:528px ;
+#ready_join .main {
+  display: flex;
+  justify-content: space-between;
 }
 
-#ready_join .button_style{
-    background-color: #ffff;
-    color: #289BDE;
+#ready_join .main h2 {
+  font-size: 45px;
+  color: #ffff;
+  font-weight: 600;
+}
+#ready_join .main p {
+  color: #ffff;
+  width: 528px;
 }
 
-#ready_join .right{
-    display: flex;
-    align-items: center;
-    justify-content: end;
+#ready_join .button_style {
+  background-color: #ffff;
+  color: #289bde;
 }
 
-#ready_join .modal-content{
-    background-color: #289BDE;
-    color: #ffff;
+#ready_join .right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
-#ready_join .modal-body{
-    padding: 50px;
+
+#ready_join .modal-content {
+  background-color: #289bde;
+  color: #ffff;
 }
-#ready_join .modal-body h2{
-    text-align: center;
+#ready_join .modal-body {
+  padding: 50px;
+}
+#ready_join .modal-body h2 {
+  text-align: center;
 }
 /*=========================== 
         ready to join end
@@ -298,44 +298,130 @@ background-color:#289BDE ;
        Successfull Students start
 /*=========================== */
 
-#succesfull_student{
-    margin-bottom: 130px;
+#succesfull_student {
+  margin-bottom: 130px;
 }
 
-#succesfull_student .studentittle{
-    width: 549px;
+#succesfull_student .studentittle {
+  width: 549px;
 }
-#succesfull_student .student img{
-width: 100%;
+#succesfull_student .student img {
+  width: 100%;
 }
-#succesfull_student .student{
-    border: 1px solid #E8E8E8;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    margin-top: 50px;
+#succesfull_student .student {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 50px;
 }
-#succesfull_student .student .detils{
-    padding:20px ;
+#succesfull_student .student .detils {
+  padding: 20px;
 }
-#succesfull_student .student .detils h5{
-font-size: 20px;
-font-weight: 600;
-color: #1D1D1D;
+#succesfull_student .student .detils h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d1d1d;
 }
 
-#succesfull_student .student .detils p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #777777;
-    line-height: 30px;
+#succesfull_student .student .detils p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 30px;
 }
 #succesfull_student .all_students {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 /*=========================== 
        Successfull Students end
+/*=========================== */
+/*=========================== 
+       Questions start
+/*=========================== */
+#question {
+  margin-bottom: 130px;
+}
+#question .question_title {
+  text-align: center;
+  padding: 0 100px;
+}
+
+#question .accordion-item {
+  margin-bottom: 25px;
+}
+
+#question .accordion-item h2 {
+  border: none;
+}
+
+/*=========================== 
+       Questions end
+/*=========================== */
+
+/*=========================== 
+       companie start
+/*=========================== */
+#companie {
+  margin-bottom: 130px;
+}
+#companie h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-bottom: 130px;
+}
+
+#companie .main {
+    visibility: visible;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*=========================== 
+       companie end
+/*=========================== */
+
+/*=========================== 
+       footer start
+/*=========================== */
+#footer {
+  padding: 130px 0;
+  background: #161616;
+  text-align: center;
+}
+#footer h2 {
+  color: #e8e8e8 !important;
+}
+#footer p {
+  color: #e8e8e8 !important;
+}
+#footer p a {
+  color: #e8e8e8 !important;
+}
+
+#footer .address {
+  width: 321px;
+  margin: 0 auto;
+}
+#footer a i {
+  font-size: 20px;
+  color: #ffff;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #242424;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 3px;
+}
+/*=========================== 
+       footer end
 /*=========================== */
