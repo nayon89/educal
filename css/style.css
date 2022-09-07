@@ -244,3 +244,53 @@ body {
 /*=========================== 
         elearning end
 /*=========================== */
+/*=========================== 
+        ready to join start
+/*=========================== */
+#ready_join{
+    padding: 130px 0;
+}
+#ready_join .container {
+padding: 80px 100px;
+background-color:#289BDE ;
+}     
+
+#ready_join .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ready_join .main h2{
+    font-size: 45px;
+    color: #ffff;
+    font-weight: 600;
+}
+#ready_join .main p{
+    color: #ffff;
+    width:528px ;
+}
+
+#ready_join .button_style{
+    background-color: #ffff;
+    color: #289BDE;
+}
+
+#ready_join .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#ready_join .modal-content{
+    background-color: #289BDE;
+    color: #ffff;
+}
+#ready_join .modal-body{
+    padding: 50px;
+}
+#ready_join .modal-body h2{
+    text-align: center;
+}
+/*=========================== 
+        ready to join end
+/*=========================== */
