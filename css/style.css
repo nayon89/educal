@@ -145,3 +145,68 @@ body {
 /*=========================== 
         banner end
 /*=========================== */
+/*=========================== 
+        course start
+/*=========================== */
+#course {
+  padding: 130px 0;
+}
+#course .course_tittle {
+  text-align: center;
+  width: 606px;
+  margin: 0 auto;
+}
+
+#course .course_tittle p {
+  margin-bottom: 50px;
+}
+
+#course .item {
+  display: flex;
+  margin-bottom: 24px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#course .item .img {
+  width: 30%;
+}
+#course .item .img img {
+  width: 100%;
+}
+#course .item .text {
+  width: 70%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+#course .item .text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #4a4a4a;
+  margin-bottom: 5px;
+}
+
+#course .item .text p {
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+
+#course .item .text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #289bde;
+}
+
+#course .all_course {
+  text-align: center;
+  margin-top: 24px;
+}
+/*=========================== 
+        course end
+/*=========================== */
