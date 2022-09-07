@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.pera {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  line-height: 30px;
+}
+
+.tittle {
+  font-size: 45px;
+  font-weight: 600;
+  color: #1d1d1d;
+}
+
+.button_style {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffff;
+  padding: 13px 33px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #289bde;
+}
+
+.only_sm_devise {
+  display: none;
+}
+
+/* common css end */
+
+/*=========================== 
+        main menu start
+/*=========================== */
+#main_menu {
+  padding: 65px 0;
+}
+#main_menu .navbar-brand {
+  font-size: 40px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+#main_menu ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777777;
+  margin: 0 15px;
+}
+
+#main_menu .register {
+  font-size: 20px;
+  font-weight: 600;
+  color: #289bde;
+  padding: 13px 33px;
+  border: 1px solid #289bde;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: transparent;
+}
+
+/*=========================== 
+        main menu end
+/*=========================== */
