@@ -90,3 +90,58 @@ body {
 /*=========================== 
         main menu end
 /*=========================== */
+/*=========================== 
+        banner  start
+/*=========================== */
+
+#banner .banner_slide {
+  background: url(../images/cover/cover-1.png);
+  padding: 180px 0;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#banner .banner_slide_2 {
+  background: url(../images/cover/cover-2.jpg);
+}
+#banner .banner_slide_3 {
+  background: url(../images/cover/cover-3.jpg);
+}
+
+#banner .banner_slide::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  background-color: rgba(29, 29, 29, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#banner h1 {
+  font-size: 65px;
+  font-weight: 600;
+  width: 632px;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffff;
+}
+
+#banner p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f4f4f4;
+  line-height: 30px;
+  width: 671px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#banner a {
+  color: #ffff;
+}
+/*=========================== 
+        banner end
+/*=========================== */
